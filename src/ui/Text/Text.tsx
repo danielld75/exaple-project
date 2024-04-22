@@ -3,5 +3,5 @@ type TextProps = {
 }
 
 export const Text = ({children}: TextProps) => {
-  return <p>{children}</p>
+  return <span>{children}</span>
 }
