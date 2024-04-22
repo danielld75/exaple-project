@@ -1,7 +1,8 @@
 type TextProps = {
-  children: string
+  children: string,
+  className?: string
 }
 
-export const Text = ({children}: TextProps) => {
-  return <span>{children}</span>
+export const Text = ({children, className}: TextProps) => {
+  return <span className={className}>{children}</span>
 }

@@ -7,7 +7,7 @@ type ButtonProps = {
 
 export const ButtonBlue = ({ label, onClick }: ButtonProps) => {
 	return (
-		<button className='rounded-lg bg-blue-300 hover:bg-blue-400 text-gray-700' onClick={onClick}>
+		<button className='px-5 py-3 rounded-lg bg-blue-300 hover:bg-blue-400 text-gray-700' onClick={onClick}>
 			{label}
 		</button>
 	)
